@@ -1,0 +1,16 @@
+{
+  "id": "app207-recipe-ai",
+  "name": "App207 Recipe AI",
+  "tagline": "AI-powered health solution",
+  "description": "AI-powered app207-recipe-ai application built for Aurora Market. Modern, responsive design with SaaS monetization.",
+  "category": "health",
+  "tags": ["ai", "health"],
+  "url": "https://auroramarket.org/app207-recipe-ai",
+  "demo": "https://21leahcimhtiek-oss.github.io/app207-recipe-ai",
+  "repo": "https://github.com/21leahcimhtiek-oss/app207-recipe-ai",
+  "stack": ["TypeScript", "Next.js", "React"],
+  "status": "mvp",
+  "version": "1.0.0",
+  "author": "Aurora Rayes LLC",
+  "license": "MIT"
+}
