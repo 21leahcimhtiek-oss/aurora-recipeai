@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'ChefBot AI',
-  description: 'AI-generated recipes from what's in your fridge',
+  description: "AI-generated recipes from what's in your fridge",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

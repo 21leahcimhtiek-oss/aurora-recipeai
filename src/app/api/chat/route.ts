@@ -9,7 +9,10 @@ export async function POST(req: NextRequest) {
   const completion = await openai.chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
-      { role: 'system', content: 'You are ChefBot AI, an AI assistant. AI-generated recipes from what's in your fridge. Be helpful, concise, and actionable.' },
+      {
+        role: 'system',
+        content: "You are ChefBot AI, an AI assistant. AI-generated recipes from what's in your fridge. Be helpful, concise, and actionable.",
+      },
       { role: 'user', content: message },
     ],
     max_tokens: 1024,
